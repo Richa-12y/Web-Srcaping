@@ -16,6 +16,9 @@ driver.get(website)
 all_matches_button = driver.find_element(by='xpath', value='//label[@analytics-event="All matches"]')
 all_matches_button.click()
 
+
+
+
 # select dropdown and select element inside by visible text
 dropdown = Select(driver.find_element(by='id', value='country'))
 dropdown.select_by_visible_text('Spain')
